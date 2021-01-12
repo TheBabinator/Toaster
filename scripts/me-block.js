@@ -1,15 +1,23 @@
 function extend(name) {
-    const content = extendContent(PowerBlock, name, {
+    const content = extendContent(Block, name, {
         
     });
 
-    content.buildType = prov((x) => extend(Building, {
-        update(build) {
-            print(build)
-        },
-    }))
+    content.solid = true
+    content.destructible = true
 
-    return content;
+    content.buildType = () => extend(Building, {
+        placed() {
+            this.super$placed()
+            log("hello")
+        },
+        updateTile() {
+            this.super$updateTile()
+            log("updat")
+        },
+    })
+
+    return content
 }
 
 module.exports = {

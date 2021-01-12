@@ -1,9 +1,0 @@
-name: "ME Node"
-description: "Connects an ME network together."
-requirements: [
-    metaglass/6
-    graphite/4
-    silicon/3
-]
-research: power-node
-category: effect
