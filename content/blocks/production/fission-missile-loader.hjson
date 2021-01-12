@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: "Fission Missile Loader"
+description: "Loads a missile casing with a uranium core, creating a nuclear bomb."
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+updateEffect: smeltsmoke
+consumes: {
+    power: 1.8
+    items: {
+        items: [
+            missile-casing/1
+            uranium235/4
+        ]
+    }
+}
+liquidCapacity: 10
+outputItem: fission-missile/1
+craftTime: 150
+requirements: [
+    lead/60
+    graphite/80
+    silicon/60
+    plastanium/40
+]
+category: crafting
+research: missile-fabricator

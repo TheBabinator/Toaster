@@ -1,0 +1,8 @@
+name: "Deuterium"
+description: "An isotope of hydrogen-2, slightly heavier than hydrogen-1."
+details: "Hydrogen-2 has a proton and neutron, two atoms of hydrogen-2 can fuse to create helium-4."
+color: b289ff
+temperature: 0.5
+viscosity: 0.1
+flammability: 32
+explosiveness: 2

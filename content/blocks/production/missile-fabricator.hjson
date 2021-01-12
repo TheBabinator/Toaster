@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: "Missile Fabricator"
+description: "Fabricates missile casings that can house all sorts of [accent]fun[] payloads."
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+updateEffect: smeltsmoke
+consumes: {
+    power: 1.4
+    liquid: oil/0.25
+    items: {
+        items: [
+            plastanium/8
+            silicon/4
+            blast-compound/1
+        ]
+    }
+}
+liquidCapacity: 10
+outputItem: missile-casing/1
+craftTime: 60
+requirements: [
+    lead/60
+    graphite/80
+    silicon/60
+    plastanium/40
+]
+category: crafting
+research: kiln

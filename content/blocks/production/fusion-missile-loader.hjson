@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: "Fusion Missile Loader"
+description: "Adds a secondary deuterium stage to a fission missile, allowing a much more energetic fission reaction to release even more energy."
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+updateEffect: smeltsmoke
+consumes: {
+    power: 1.8
+    liquid: fusionfuel/0.2
+    items: {
+        items: [
+            fission-missile/1
+        ]
+    }
+}
+liquidCapacity: 10
+outputItem: fusion-missile/1
+craftTime: 150
+requirements: [
+    lead/80
+    graphite/100
+    silicon/80
+    thorium/80
+    surge-alloy/60
+]
+category: crafting
+research: fission-missile-loader

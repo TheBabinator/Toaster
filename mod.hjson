@@ -1,0 +1,8 @@
+name: toaster
+displayName: "[purple]Toaster[]"
+author: "[sky]The[royal]Babinator"
+description: "toaster powered tech mod\n\n[stat]why did i call this mod toaster this is such a shit joke[]"
+version: "1.0"
+minGameVersion: "122.1"
+dependencies: []
+hidden: false

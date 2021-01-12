@@ -1,0 +1,9 @@
+name: "Fission Missile"
+description: "A missile casing filled with fissile uranium-235."
+details: "Relies on the chain reaction of nuclear fission of uranium-235 releasing great amounts of energy that can be unleashed on enemies."
+color: 37864e
+hardness: 4
+cost: 3
+explosiveness: 10000
+flammability: 0
+radioactivity: 1.6

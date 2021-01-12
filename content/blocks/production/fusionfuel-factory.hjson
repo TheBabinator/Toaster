@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Fusion Fuel Factory"
+description: "Creates fusion fuel from deuterium mixed with inert lead."
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+updateEffect: smeltsmoke
+consumes: {
+    power: 1.4
+    liquid: deuterium/0.3
+    items: {
+        items: [
+            lead/1
+        ]
+    }
+}
+liquidCapacity: 10
+outputLiquid: fusionfuel/1
+craftTime: 30
+requirements: [
+    graphite/90
+    metaglass/50
+    titanium/80
+    silicon/50
+    plastanium/40
+]
+category: crafting
+research: uranium-centrifuge
+drawer: DrawMixer

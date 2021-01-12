@@ -1,0 +1,7 @@
+type: OreBlock
+name: Uranium Ore
+itemDrop: uranium
+playerUnmineable: true
+oreDefault: true
+oreScale: 15.4
+oreThreshold: 0.88

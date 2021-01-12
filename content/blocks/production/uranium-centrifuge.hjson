@@ -1,0 +1,30 @@
+type: Separator
+name: "Uranium Centrifuge"
+description: "Separates uranium into its common isotopes."
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+updateEffect: smeltsmoke
+consumes: {
+    power: 1.8
+    liquid: water/0.2
+    items: {
+        items: [
+            uranium/1
+        ]
+    }
+}
+liquidCapacity: 10
+results: [
+    uranium238/9
+    uranium235/1
+]
+craftTime: 40
+requirements: [
+    lead/100
+    graphite/80
+    silicon/60
+]
+category: crafting
+research: kiln

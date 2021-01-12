@@ -1,0 +1,9 @@
+name: "Uranium"
+description: "An atomically heavy element, not particularly useful on its own."
+details: "*slaps roof of uranium*\nthis bad boy can fit so much [red]kill[] in it"
+color: 48b067
+hardness: 4
+cost: 3
+explosiveness: 0.15
+flammability: 0
+radioactivity: 1.2

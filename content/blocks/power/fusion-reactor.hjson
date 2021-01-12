@@ -1,0 +1,26 @@
+type: ImpactReactor
+name: "Fusion Reactor"
+description: "Fuses deuterium into helium in a controlled reaction releasing huge amounts of energy."
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: false
+consumes: {
+    power: 42
+    liquid: fusionfuel/0.025
+}
+plasma1: ffe0b3ff
+plasma2: c5ff7aff
+liquidCapacity: 24
+powerProduction: 320
+requirements: [
+    lead/800
+    graphite/640
+    silicon/520
+    thorium/420
+    plastanium/400
+    surge-alloy/380
+    metaglass/300
+]
+category: power
+research: impact-reactor

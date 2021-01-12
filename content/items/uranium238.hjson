@@ -1,0 +1,9 @@
+name: "Uranium-238"
+description: "An isotope of uranium, capable of fuck all."
+details: "You could just put it into an incinerator, but that's just wasteful."
+color: 548b65
+hardness: 3
+cost: 4
+explosiveness: 0.1
+flammability: 0
+radioactivity: 0.6

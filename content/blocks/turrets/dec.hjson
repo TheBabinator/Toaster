@@ -1,0 +1,49 @@
+type: ItemTurret
+name: "D.E.C."
+description: "Fires a barrage of armour-piercing bullets at ground units."
+details: "stands for 'your mum'"
+size: 3
+reloadTime: 10
+range: 240
+targetAir: false
+targetGround: true
+ammoUseEffect: casing1
+spread: 10
+inaccuracy: 6
+rotatespeed: 10
+maxAmmo: 20
+shootShake: 1.2
+xRand: 6
+ammoTypes: {
+    uranium: {
+        ammoMultiplier: 4
+        speed: 5
+        damage: 100
+        splashDamage: 60
+        splashDamageRadius: 10
+        knockback: 2.5
+        lifetime: 80
+        width: 8
+        height: 12
+    }
+    uranium238: {
+        ammoMultiplier: 4
+        speed: 4
+        damage: 240
+        splashDamage: 100
+        splashDamageRadius: 6
+        knockback: 1.5
+        lifetime: 80
+        width: 8
+        height: 12
+    }
+}
+requirements: [
+    copper/2000
+    lead/1600
+    graphite/1200
+    silicon/1000
+    thorium/800
+]
+category: turret
+research: cyclone

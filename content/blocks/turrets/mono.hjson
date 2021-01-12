@@ -1,0 +1,26 @@
+type: ItemTurret
+name: "Mono"
+description: "how"
+details: "why not"
+size: 1
+reloadTime: 5
+range: 140
+targetAir: true
+targetGround: true
+ammoUseEffect: casing1
+spread: 6
+inaccuracy: 4
+rotatespeed: 18
+maxAmmo: 600
+ammoTypes: {
+    copper: {
+        ammoMultiplier: 100
+        speed: 4
+        damage: 4
+    }
+}
+requirements: [
+    copper/2500
+]
+category: turret
+research: duo

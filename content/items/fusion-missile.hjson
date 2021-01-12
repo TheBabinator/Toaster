@@ -1,0 +1,9 @@
+name: "Fusion Missile"
+description: "An missile casing filled with primary a fusion core and secondary fusion core."
+details: "Relies on the reaction of nuclear fusion of hydrogen-2 releasing unimaginable amounts of energy that can be unleashed on enemies."
+color: 896bc6
+hardness: 4
+cost: 3
+explosiveness: 20000
+flammability: 0
+radioactivity: 1.2

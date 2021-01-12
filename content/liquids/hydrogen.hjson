@@ -1,0 +1,8 @@
+name: "Hydrogen"
+description: "An atomically light element."
+details: "Hydrogen is a very flammable gas, so it should be kept away from any potential sources of ignition."
+color: ffeafc
+temperature: 0.5
+viscosity: 0.1
+flammability: 24
+explosiveness: 1

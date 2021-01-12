@@ -1,0 +1,9 @@
+name: "Uranium-235"
+description: "An isotope of uranium, capable of maintaining a fission reaction."
+details: "Quite radioactive, definitely would not mind losing a proton or ninety-two..."
+color: 0f772e
+hardness: 3
+cost: 4
+explosiveness: 0.25
+flammability: 0
+radioactivity: 1.8
