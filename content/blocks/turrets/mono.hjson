@@ -20,7 +20,7 @@ ammoTypes: {
     }
 }
 requirements: [
-    copper/2500
+    copper/20
 ]
 category: turret
 research: duo
