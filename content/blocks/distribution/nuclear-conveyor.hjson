@@ -1,0 +1,23 @@
+type: Conveyor
+name: "Nuclear Conveyor"
+description: "It's like a conveyor, but nuclear."
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+consumes: {
+    power: 0.1
+    powerBuffered: 10
+}
+liquidCapacity: 12
+outputLiquid: deuterium/1
+craftTime: 20
+requirements: [
+    lead/80
+    metaglass/60
+    silicon/60
+    titanium/50
+]
+category: crafting
+research: electrolytic-separator
+drawer: DrawMixer

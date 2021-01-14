@@ -14,13 +14,18 @@ rotatespeed: 18
 maxAmmo: 600
 ammoTypes: {
     copper: {
-        ammoMultiplier: 100
+        ammoMultiplier: 32
         speed: 4
         damage: 4
     }
+    graphite: {
+        ammoMultiplier: 42
+        speed: 4
+        damage: 5
+    }
 }
 requirements: [
-    copper/20
+    copper/45
 ]
 category: turret
 research: duo

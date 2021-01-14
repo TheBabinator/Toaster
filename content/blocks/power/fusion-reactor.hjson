@@ -7,7 +7,7 @@ hasLiquids: true
 hasItems: false
 consumes: {
     power: 42
-    liquid: fusionfuel/0.025
+    liquid: fusionfuel/0.05
 }
 plasma1: ffe0b3ff
 plasma2: c5ff7aff
