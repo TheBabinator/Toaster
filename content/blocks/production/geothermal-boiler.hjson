@@ -1,4 +1,3 @@
-type: AttributeSmelter
 name: "Geothermal Boiler"
 description: "Superheats water into steam using heat from the ground. Works best on hot rock."
 size: 2
@@ -7,14 +6,16 @@ hasLiquids: true
 hasItems: false
 updateEffect: smeltsmoke
 consumes: {
-    liquid: water/0.1
+    liquid: water/0.2
 }
 attribute: heat
 baseEfficiency: 0.2
 boostScale: 0.8
 maxHeatBoost: 1.8
-outputLiquid: steam/6
+outputLiquid: steam/12
 craftTime: 60
+ambientSound = smelter
+ambientSoundVolume = 0.05
 requirements: [
     lead/60
     graphite/60

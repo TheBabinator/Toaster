@@ -7,15 +7,17 @@ hasLiquids: true
 hasItems: true
 updateEffect: smeltsmoke
 consumes: {
-    liquid: water/0.06
+    liquid: water/0.12
     items: {
         items: [
             coal/1
         ]
     }
 }
-outputLiquid: steam/3.6
+outputLiquid: steam/7.2
 craftTime: 60
+ambientSound = smelter
+ambientSoundVolume = 0.05
 requirements: [
     copper/60
     lead/50

@@ -5,7 +5,7 @@ hasPower: true
 hasLiquids: true
 hasItems: false
 consumes: {
-    liquid: steam/0.05
+    liquid: steam/0.1
 }
 liquidCapacity: 12
 powerProduction: 6
