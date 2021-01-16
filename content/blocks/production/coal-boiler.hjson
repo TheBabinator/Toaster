@@ -16,8 +16,8 @@ consumes: {
 }
 outputLiquid: steam/7.2
 craftTime: 60
-ambientSound = smelter
-ambientSoundVolume = 0.05
+ambientSound: smelter
+ambientSoundVolume: 0.05
 requirements: [
     copper/60
     lead/50

@@ -14,8 +14,8 @@ boostScale: 0.8
 maxHeatBoost: 1.8
 outputLiquid: steam/12
 craftTime: 60
-ambientSound = smelter
-ambientSoundVolume = 0.05
+ambientSound: smelter
+ambientSoundVolume: 0.05
 requirements: [
     lead/60
     graphite/60
