@@ -2,12 +2,9 @@ type: Conveyor
 name: "Nuclear Conveyor"
 description: "It's like a conveyor, but nuclear."
 size: 1
-hasPower: true
+hasPower: false
 hasLiquids: false
 hasItems: true
-consumes: {
-    power: 0.04
-}
 speed: 0.16
 displayedSpeed: 22
 requirements: [
