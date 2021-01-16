@@ -1,0 +1,25 @@
+type: AttributeSmelter
+name: "Geothermal Boiler"
+description: "Superheats water into steam using heat from the ground. Works best on hot rock."
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: false
+updateEffect: smeltsmoke
+consumes: {
+    liquid: water/0.1
+}
+attribute: heat
+baseEfficiency: 0.2
+boostScale: 0.8
+maxHeatBoost: 1.8
+outputLiquid: steam/6
+craftTime: 60
+requirements: [
+    lead/60
+    graphite/60
+    metaglass/50
+    silicon/40
+]
+category: crafting
+research: coal-boiler

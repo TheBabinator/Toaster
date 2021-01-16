@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: "Coal Boiler"
+description: "Superheats water into steam by the combustion of coal."
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: true
+updateEffect: smeltsmoke
+consumes: {
+    liquid: water/0.06
+    items: {
+        items: [
+            coal/1
+        ]
+    }
+}
+outputLiquid: steam/3.6
+craftTime: 60
+requirements: [
+    copper/60
+    lead/50
+    graphite/40
+]
+category: crafting
+research: kiln

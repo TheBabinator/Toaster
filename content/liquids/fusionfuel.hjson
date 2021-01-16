@@ -1,6 +1,6 @@
 name: "Fusion Fuel"
 description: "Fusile fuel for fusion reactions."
-details: "Fusion fuel is much more dangerous than fission fuel."
+details: "Fusion fuel is very dangerous and should be handled with care."
 color: 6aada0
 temperature: 0.5
 viscosity: 0.3

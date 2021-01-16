@@ -1,0 +1,19 @@
+name: "Advanced Turbine"
+description: "So basically, we took that old steam generator and removed that crappy boiler from it!"
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: false
+consumes: {
+    liquid: steam/0.05
+}
+liquidCapacity: 12
+powerProduction: 6
+requirements: [
+    copper/60
+    graphite/60
+    metaglass/50
+    silicon/50
+]
+category: power
+research: steam-generator

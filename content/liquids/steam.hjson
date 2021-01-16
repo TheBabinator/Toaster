@@ -1,0 +1,9 @@
+name: "Steam"
+description: "Water in its gaseous state."
+details: "Commonly used to spin a turbine generator to produce power."
+color: cccccc
+temperature: 0.65
+viscosity: 0.2
+heatCapacity: 0.3
+flammability: 0
+explosiveness: 0
