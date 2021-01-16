@@ -18,7 +18,7 @@ ammoTypes: {
         damage: 12
         splashDamage: 10
         splashDamageRadius: 25
-        collidesTiles: false
+        collidesTiles: true
         knockback: 1
         lifetime: 420
         width: 14
@@ -34,7 +34,7 @@ ammoTypes: {
         damage: 8000
         splashDamage: 3000
         splashDamageRadius: 160
-        collidesTiles: false
+        collidesTiles: true
         knockback: 12
         lifetime: 420
         width: 14
@@ -51,7 +51,7 @@ ammoTypes: {
         damage: 32000
         splashDamage: 12000
         splashDamageRadius: 240
-        collidesTiles: false
+        collidesTiles: true
         knockback: 18
         lifetime: 420
         width: 14
