@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: "Flour Mixer"
+description: "Creates flour, whatever that is supposed to be."
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+updateEffect: smeltsmoke
+consumes: {
+    items: {
+        items: [
+            sand/1
+            spore-pod/2
+        ]
+    }
+}
+outputItem: flour/1
+craftTime: 80
+ambientSound: smelter
+ambientSoundVolume: 0.05
+requirements: [
+    copper/80
+    graphite/80
+    metaglass/60
+]
+category: crafting
+research: graphite-press

@@ -1,0 +1,9 @@
+name: "Flour"
+description: "Ground up wheat, used for something."
+details: "We don't actually know what wheat is, but it was probably living at some point so that means that flour must just be sand mixed with biomass."
+color: dbc85a
+hardness: 1
+cost: 1
+explosiveness: 0
+flammability: 0.2
+radioactivity: 0

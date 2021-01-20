@@ -1,7 +1,7 @@
 name: toaster
 displayName: "[purple]Toaster[]"
 author: "[sky]The[royal]Babinator"
-description: "toaster powered tech mod"
+description: "Mindustry mod that adds fun little things, brought to you by Toaster Gaming."
 version: "1.1.0"
 minGameVersion: "122.1"
 dependencies: []

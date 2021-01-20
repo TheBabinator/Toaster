@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: "Dough Factory"
+description: "Creates dough from flour and water."
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+updateEffect: smeltsmoke
+consumes: {
+    liquid: water/0.1
+    items: {
+        items: [
+            flour/3
+        ]
+    }
+}
+outputItem: dough/2
+craftTime: 90
+ambientSound: smelter
+ambientSoundVolume: 0.05
+requirements: [
+    copper/80
+    graphite/80
+    metaglass/60
+]
+category: crafting
+research: graphite-press
