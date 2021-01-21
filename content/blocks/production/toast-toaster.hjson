@@ -14,6 +14,7 @@ consumes: {
         ]
     }
 }
+itemCapacity: 4
 outputItem: toast/4
 craftTime: 240
 ambientSound: smelter

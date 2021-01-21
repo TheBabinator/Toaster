@@ -1,0 +1,8 @@
+type: mech
+flying: false
+speed: 0.8
+health: 160
+targetAir: true
+targetGround: true
+
+research: dagger
