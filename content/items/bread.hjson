@@ -1,9 +1,9 @@
 name: "Bread"
 description: "It is bread."
 details: "It is bread."
-color: dbc85a
+color: ef945f
 hardness: 1
 cost: 1
 explosiveness: 0
-flammability: 0.2
+flammability: 0
 radioactivity: 0

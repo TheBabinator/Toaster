@@ -1,28 +1,28 @@
 type: GenericSmelter
-name: "Oven"
-description: "Bakes dough into fresh bread."
+name: "Toaster"
+description: "Creates delicious toast from slices of bread."
 size: 2
 hasPower: true
 hasLiquids: false
 hasItems: true
 updateEffect: smeltsmoke
 consumes: {
-    power: 1.8
+    power: 1.5
     items: {
         items: [
-            dough/13
+            sliced-bread/4
         ]
     }
 }
-itemCapacity: 20
-outputItem: bread/13
-craftTime: 600
+outputItem: toast/4
+craftTime: 240
 ambientSound: smelter
 ambientSoundVolume: 0.05
 requirements: [
-    copper/120
-    graphite/100
-    metaglass/80
+    copper/160
+    graphite/120
+    titanium/80
+    silicon/50
 ]
 category: crafting
-research: dough-factory
+research: bread-slicer
