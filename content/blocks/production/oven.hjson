@@ -1,28 +1,27 @@
-type: GenericCrafter
-name: "Dough Factory"
-description: "Creates dough from flour and water."
+type: GenericSmelter
+name: "Oven"
+description: "Bakes dough into fresh bread."
 size: 2
 hasPower: true
 hasLiquids: false
 hasItems: true
 updateEffect: smeltsmoke
 consumes: {
-    power: 1.2
-    liquid: water/0.1
+    power: 1.8
     items: {
         items: [
-            flour/3
+            dough/1
         ]
     }
 }
-outputItem: dough/2
-craftTime: 80
+outputItem: bread/1
+craftTime: 100
 ambientSound: smelter
 ambientSoundVolume: 0.05
 requirements: [
-    copper/80
-    graphite/60
-    titanium/60
+    copper/120
+    graphite/100
+    metaglass/80
 ]
 category: crafting
 research: graphite-press
