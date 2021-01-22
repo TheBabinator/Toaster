@@ -1,4 +1,4 @@
-function extend(name) {
+function add(name) {
     const content = extendContent(AttributeSmelter, name, {
         
     });
@@ -11,5 +11,5 @@ function extend(name) {
 }
 
 module.exports = {
-    extend: extend,
+    add: add,
 }

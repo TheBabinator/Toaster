@@ -1,2 +1,4 @@
 require("musics");
-require("blocks");
+global.toaster = {};
+global.toaster.units = require("units");
+global.toaster.blocks = require("blocks");

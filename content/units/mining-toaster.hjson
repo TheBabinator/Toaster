@@ -1,0 +1,14 @@
+{
+    type: mech
+    name: "Mining Toaster"
+    description: "A generation of Toaster that automatically mines resources and delivers them to the core."
+    health: 160
+    speed: 0.65
+    range: 20
+    itemCapacity: 20
+    mineTier: 5
+    buildSpeed: 0
+    mineSpeed: 2
+    commandLimit: 6
+    research: dagger
+}

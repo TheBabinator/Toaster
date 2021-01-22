@@ -1,4 +1,4 @@
-function extend(name) {
+function add(name) {
     const content = extendContent(PowerGenerator, name, {
         load() {
             this.super$load();
@@ -47,5 +47,5 @@ function extend(name) {
 }
 
 module.exports = {
-    extend: extend,
+    add: add,
 }
