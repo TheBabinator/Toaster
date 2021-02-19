@@ -1,17 +1,16 @@
 {
     name: "Toaster Assembler"
-    description: "Assembles Toaster-Class mechs which are capable of completing multiple different tasks."
+    description: "Assembles toaster mechs which are capable of completing multiple different tasks."
     size: 3
     consumes: {
         power: 2.4
     }
-    /*
     requirements: [
         lead/60
         graphite/60
         silicon/40
+        flour/20
     ]
-    category: units
-    research: ground-factory
-    */
+    //category: units
+    //research: ground-factory
 }

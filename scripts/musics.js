@@ -11,4 +11,6 @@ music.addTrack(classic1, "ambientMusic");
 music.addTrack(classic2, "ambientMusic");
 music.addTrack(classic3, "ambientMusic");
 music.addTrack(classic4, "ambientMusic");
+music.addTrack(toaster1, "ambientMusic");
 music.addTrack(toaster1, "darkMusic");
+music.addTrack(toaster1, "bossMusic");

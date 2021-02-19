@@ -1,7 +1,7 @@
 {
     type: mech
     name: "[WIP] Mining Toaster"
-    description: "A generation of Toaster that automatically mines resources and delivers them to the core."
+    description: "A generation of toaster that automatically mines resources and delivers them to the core."
     health: 160
     speed: 0.8
     range: 20
